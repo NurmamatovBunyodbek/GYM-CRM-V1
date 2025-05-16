@@ -17,6 +17,8 @@ public class LoginService {
     @Autowired
     LoginRepo repo;
 
+
+
     public List<Login> findAll() {
         return repo.findAll();
     }
